@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace WpfApplication1
 {
    public class Nota
-    {
+    {   
         private int _activitate;
 
         public int Activitate
@@ -15,9 +15,9 @@ namespace WpfApplication1
             get { return _activitate; }
             set { _activitate = value; }
         }
-        private int _evaluare;
+        private List<string> _evaluare;
 
-        public int Evaluare
+        public List<string> Evaluare
         {
             get { return _evaluare; }
             set { _evaluare = value; }
